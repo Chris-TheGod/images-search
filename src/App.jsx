@@ -1,8 +1,9 @@
+import { searchImages } from "./api";
 import { SearchBar } from "./components/SearchBar";
 
 export const App = () => {
   const handleSubmit = (term) => {
-    console.log(term);
+    searchImages(term);
   };
 
   return (
