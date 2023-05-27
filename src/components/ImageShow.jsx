@@ -1,3 +1,3 @@
-export const ImageShow = () => {
-  return <div>ImageShow</div>;
+export const ImageShow = ({ image }) => {
+  return <div>{image.id}</div>;
 };
